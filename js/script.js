@@ -10,7 +10,7 @@ project 1 - A Random Quote Generator
 /***
  * `quotes` array
 ***/
-let quotes = [
+const quotes = [
   {
     author: "W.E.B. Du Bois",
     quotation: "Daily the Negro is coming more and more to look upon law and justice, not as protecting safeguards, but as sources of humiliation and oppression. The laws are made by men who have little interest in him; they are executed by men who have absolutely no motive for treating the black people with courtesy or consideration; and, finally, the accused law-breaker is tried, not by his peers, but too often by men who would rather punish ten innocent Negroes than let one guilty one escape.",
@@ -53,7 +53,7 @@ let quotes = [
  * `The objective of creating getRandomQuote`function is to generate a random number from the quote object.
 ***/
 function getRandomQuote () {
-  let randomNumber = Math.floor(Math.random() * quotes.length);
+  const randomNumber = Math.floor(Math.random() * quotes.length);
   console.log(quotes);
   return quotes[randomNumber];
 
