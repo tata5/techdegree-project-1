@@ -78,7 +78,6 @@ function printQuote () {
 
     document.getElementById('quote-box').innerHTML = showQuote;
 };
-console.log(printQuote());
 
 /***
  This is the event listener. When the for the print quote button is clicked, it will load
